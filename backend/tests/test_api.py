@@ -1,8 +1,26 @@
+import os
+import sys
 import pytest
+
+# Ensure root directory is in python path for absolute package imports
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+
 from fastapi.testclient import TestClient
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncSession
 from sqlalchemy.pool import StaticPool
+from sqlalchemy.ext.compiler import compiles
+from sqlalchemy.dialects.postgresql import TSVECTOR
+from pgvector.sqlalchemy import Vector
 import uuid
+
+# Map PostgreSQL types to TEXT in SQLite for in-memory testing
+@compiles(TSVECTOR, "sqlite")
+def compile_tsvector_sqlite(element, compiler, **kw):
+    return "TEXT"
+
+@compiles(Vector, "sqlite")
+def compile_vector_sqlite(element, compiler, **kw):
+    return "TEXT"
 
 from backend.main import app
 from backend.repositories.db import Base, get_db

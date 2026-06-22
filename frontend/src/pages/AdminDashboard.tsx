@@ -1,14 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { 
-  ShieldAlert, 
   Users, 
   Files, 
   Cpu, 
   DollarSign, 
-  TrendingUp, 
   Activity, 
   Loader2,
-  CheckCircle,
   UserCheck
 } from 'lucide-react';
 import api from '../services/api';

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useAuthStore } from '../store/authStore';
 import { 
-  User, 
   Key, 
   Copy, 
   Check, 

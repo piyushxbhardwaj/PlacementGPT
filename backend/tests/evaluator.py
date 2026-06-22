@@ -1,6 +1,12 @@
+import os
+import sys
 import time
 import json
 import logging
+
+# Ensure root directory is in python path for absolute package imports
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+
 from typing import List, Dict, Any
 import google.generativeai as genai
 from backend.config.config import settings

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FileText, ChevronRight, Award, X, Sparkles } from 'lucide-react';
-import { Citation } from '../store/chatStore';
+import type { Citation } from '../store/chatStore';
 
 interface CitationCardProps {
   citation: Citation;

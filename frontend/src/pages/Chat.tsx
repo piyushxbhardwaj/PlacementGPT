@@ -6,11 +6,7 @@ import {
   Loader2, 
   Bot, 
   User, 
-  FileText, 
-  Sparkles, 
-  Cpu, 
-  ShieldAlert,
-  ArrowDown
+  Cpu
 } from 'lucide-react';
 import { useChatStore } from '../store/chatStore';
 

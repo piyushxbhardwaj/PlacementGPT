@@ -6,7 +6,6 @@ import {
   Zap, 
   Search, 
   FileCheck2, 
-  ShieldCheck, 
   LineChart 
 } from 'lucide-react';
 
