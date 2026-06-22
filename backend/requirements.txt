@@ -1,0 +1,26 @@
+fastapi==0.111.0
+uvicorn==0.30.1
+sqlalchemy==2.0.31
+asyncpg==0.29.0
+pgvector==0.2.5
+pydantic==2.7.4
+pydantic-settings==2.3.3
+pyjwt==2.8.0
+bcrypt==4.1.3
+python-multipart==0.0.9
+sentence-transformers==3.0.1
+torch==2.3.1 --index-url https://download.pytorch.org/whl/cpu
+python-docx==1.1.2
+pypdf==4.2.0
+tiktoken==0.7.0
+structlog==24.2.0
+prometheus-client==0.20.0
+opentelemetry-api==1.25.0
+opentelemetry-sdk==1.25.0
+opentelemetry-instrumentation-fastapi==0.46b0
+pytest==8.2.2
+httpx==0.27.0
+numpy==1.26.4
+rank_bm25==0.2.2
+google-generativeai==0.7.2
+redis==5.0.4
