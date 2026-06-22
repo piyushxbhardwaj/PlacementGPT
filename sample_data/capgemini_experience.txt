@@ -1,0 +1,16 @@
+Capgemini Interview Experience - Database Management Systems (DBMS) Focus
+
+Round 1: Online Technical Assessment
+The online test consisted of MCQ questions based on data structures, algorithms, and DBMS.
+Frequently asked DBMS questions cover the following core areas:
+- Normalization Forms: Students were asked to identify the highest normal form of a given schema. Focus heavily on 1NF, 2NF, 3NF, and BCNF. Remember that a relation is in BCNF if for every non-trivial functional dependency X -> Y, X is a super key.
+- SQL Joins: Writing queries involving INNER JOIN, LEFT JOIN, and outer joins. Make sure to understand when to use outer joins to preserve unmatched records.
+- ACID Properties: Questions explaining Atomicity, Consistency, Isolation, and Durability.
+- Database Indexing: Explain the difference between Clustered and Non-clustered indexing. Clustered indexes dictate the physical storage order of rows, whereas non-clustered indexes create a separate logical ordering structure pointing back to physical rows.
+
+Round 2: Technical Interview Face-to-Face
+The interviewer asked the candidate to write an SQL query to find the second highest salary from an Employee table:
+SELECT MAX(Salary) FROM Employee WHERE Salary < (SELECT MAX(Salary) FROM Employee);
+
+Another candidate was asked to describe DBMS Transaction Isolation Levels (Read Uncommitted, Read Committed, Repeatable Read, and Serializable) and the anomalies they prevent (Dirty Read, Non-repeatable Read, and Phantom Read).
+Make sure to study indexing structures (B-Trees vs Hash indexes) before the interview.

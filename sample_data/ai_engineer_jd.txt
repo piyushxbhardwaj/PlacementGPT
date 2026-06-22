@@ -1,0 +1,24 @@
+Job Description: AI Engineer Intern (Generative AI & RAG)
+
+Company Name: CareerTech Solutions
+Location: Remote
+Duration: 6 Months
+
+About the Role:
+We are seeking a highly motivated AI Engineer Intern to design, build, and optimize our next-generation career intelligence platform. You will work on production-grade RAG systems, focus on search relevance, evaluate response qualities, and build modular APIs.
+
+Key Responsibilities:
+- Design document ingestion parsers for PDF, DOCX, and raw text files.
+- Build vector indexing pipelines using PostgreSQL with pgvector extensions.
+- Optimize hybrid search combining dense vector cosine similarity and sparse keyword searches.
+- Implement reranking techniques using Cross-Encoder models to refine retrieved context blocks.
+- Connect pipelines to Google Gemini APIs using context grounding techniques and source citations.
+- Set up system telemetry including Prometheus metrics, structured logs, and cost/token counts.
+
+Required Skills & Qualifications:
+- Strong programming skills in Python (FastAPI, SQLAlchemy, Pydantic).
+- Good understanding of NLP principles, vector spaces, and embeddings.
+- Experience with sentence-transformers libraries and PyTorch.
+- Knowledge of frontend stacks (React, TypeScript, Tailwind CSS) is a plus.
+- Basic understanding of containerization (Docker, Docker Compose).
+- Experience evaluating RAG systems (measuring precision, recall, faithfulness) is highly valued.

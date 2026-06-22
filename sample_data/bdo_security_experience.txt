@@ -1,0 +1,21 @@
+BDO Interview Experience - Cyber Security Analyst Role
+
+Round 1: Security Aptitude & Networking Assessment
+The assessment was heavily focused on network protocols and fundamental security pillars.
+Questions covered:
+- TCP/IP Handshake: Describe the SYN, SYN-ACK, ACK handshake sequence and how TCP provides reliability.
+- Common Port Numbers: Memorize common port mappings: HTTP (80), HTTPS (443), SSH (22), FTP (21), DNS (53), and RDP (3389).
+- Firewall Types: Explain the difference between Packet Filtering firewalls and Next-Generation Firewalls (NGFW) which inspect application payload layers.
+
+Round 2: Technical Interview (SOC & Incident Response)
+The panel asked the candidate to walk through the standard Incident Response Lifecycle phases:
+1. Preparation: Establishing policy, tools, and response capability.
+2. Detection & Analysis: Monitoring system alerts and evaluating alerts for security breaches.
+3. Containment, Eradication & Recovery: Stopping the spread, clean files/systems, and restore normal operations.
+4. Post-Incident Activity: Reviewing lessons learned to harden security.
+
+Additional technical questions:
+- What is the difference between Symmetric and Asymmetric encryption?
+- How does a DDoS attack differ from a simple DoS attack?
+- What are the main indicators of compromise (IoC) to monitor on a Windows server? (Log file analysis, unexpected network ports opening, new local admin creation).
+- What is OWASP Top 10? Focus on SQL Injection, Cross-Site Scripting (XSS), and Broken Access Control.
